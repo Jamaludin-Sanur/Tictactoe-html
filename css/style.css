@@ -42,10 +42,13 @@ body {
     flex: 1;
     justify-content: center;
     padding: 1rem;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 #board {
     overflow: auto;
+    padding: 1rem;
 }
 
 .cell {
